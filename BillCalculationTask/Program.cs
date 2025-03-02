@@ -20,6 +20,16 @@
             // 3: 6 people
             // Commit your changes and add screnshot evidence of your program running to the Readme
 
+        Console.WriteLine ("Enter number of people");
+        int NumOfPeople = Convert.ToInt32(Console.ReadLine());
+        int Price = NumOfPeople * 15;
+        if (NumOfPeople >= 6) {
+            Price-=5;
+        }
+        Console.WriteLine($"The price of admission is {Price} Pounds");
+        //Test 1 Price = 60 Pounds
+        //Test 2 Price = 145 Pounds
+        //Test 3 Price = 85 Pounds
         }
     }
 }
